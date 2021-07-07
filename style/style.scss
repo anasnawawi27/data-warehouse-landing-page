@@ -14,3 +14,30 @@ body{
 
     }
 }
+
+header{
+
+    background-image: linear-gradient(#F6FAFD, #FFFF);
+    margin-top: -50px;
+    padding-top: 150px;
+    h1{
+        font-size: 56px;
+        font-weight: bold;
+    }
+
+    p{
+        font-size: 16px;
+        font-weight: 400px;
+        color: #4B5D68;
+    }
+
+    .btn-learn-more{
+        border-radius: 30px;
+        color: white;
+        background-color: #9C69E2;
+        &:hover{
+        color: white;
+        background-color: #c1a0f0;
+        }
+    }
+}
