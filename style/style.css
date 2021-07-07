@@ -16,7 +16,7 @@ body {
 header {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#F6FAFD), to(#FFFF));
   background-image: linear-gradient(#F6FAFD, #FFFF);
-  margin-top: -50px;
+  margin-top: -85px;
   padding-top: 150px;
 }
 
@@ -40,5 +40,27 @@ header .btn-learn-more {
 header .btn-learn-more:hover {
   color: white;
   background-color: #c1a0f0;
+}
+
+.about {
+  margin-top: 130px;
+}
+
+.about .row {
+  border-radius: 50px;
+  background-color: #FDE8F4;
+}
+
+.about .about-desc {
+  padding-top: 130px;
+}
+
+.about .about-desc h1 {
+  font-weight: bold;
+}
+
+.about .about-desc p {
+  font-weight: 400;
+  color: #4B5D68;
 }
 /*# sourceMappingURL=style.css.map */

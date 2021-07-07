@@ -18,7 +18,7 @@ body{
 header{
 
     background-image: linear-gradient(#F6FAFD, #FFFF);
-    margin-top: -50px;
+    margin-top: -85px;
     padding-top: 150px;
     h1{
         font-size: 56px;
@@ -38,6 +38,25 @@ header{
         &:hover{
         color: white;
         background-color: #c1a0f0;
+        }
+    }
+}
+
+.about{
+    margin-top: 130px;
+    .row{
+        border-radius: 50px;
+        background-color: #FDE8F4;
+    }
+
+    .about-desc{
+        padding-top: 130px;
+        h1{
+            font-weight: bold;
+        }
+        p{
+            font-weight: 400;
+            color: #4B5D68;
         }
     }
 }
