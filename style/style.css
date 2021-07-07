@@ -1,0 +1,15 @@
+body {
+  font-family: "Poppins";
+}
+
+.navbar .active {
+  font-weight: 500;
+}
+
+.navbar .btn-demo {
+  background-color: #ffff;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 3px 4px rgba(160, 160, 160, 0.2);
+          box-shadow: 0px 3px 4px rgba(160, 160, 160, 0.2);
+}
+/*# sourceMappingURL=style.css.map */
