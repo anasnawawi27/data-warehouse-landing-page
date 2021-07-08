@@ -1,5 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@mixin sosial-media{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #E9E9EE;
+    transition: 0.5s;
+
+    a{
+        color: #ffff;
+    }
+
+    &:hover{
+        background-color: #9b9b9b; 
+    }
+}
+
+
 body{
-    font-family: "Poppins";
+    font-family: "Inter";
 }
 
 .navbar{
@@ -58,5 +78,176 @@ header{
             font-weight: 400;
             color: #4B5D68;
         }
+    }
+}
+
+.features{
+    margin-top: 120px;
+    h1{
+        font-weight: bold;
+    }
+    p{
+        margin-top: 30px;
+        font-weight: 400;
+        color: #4B5D68;
+    }
+
+    .card-features{
+
+
+    }
+
+}
+
+
+.testimonial{
+    .testi-background{
+        padding-top: 100px;
+        padding-left: 100px;
+        padding-right: 40px;
+        background-color: #9C69E2;
+        border-radius: 45px;
+        position: relative;
+        h1{
+            font-weight: bold;
+            color: #ffff;
+        }
+
+        .card{
+            border: 1px solid #9C69E2;
+            padding: 25px;
+            margin-right: 10px;
+            border-radius: 25px;
+            box-shadow: 0px 15px 0px rgba(246,240,253,0.2);
+
+            .name{
+                font-size: 18px;
+                font-weight: 600;
+            }
+
+            .work{
+                margin-top: -10px;
+                color:#9C69E2;
+                font-size: 14px;
+            }
+            p{
+                color: #4b5D68;
+                font-size: 18px;
+            }
+            
+ 
+        }
+    }
+
+    .owl-carousel{
+        margin-top: 50px;
+        .owl-stage-outer{
+            // position: absolute;
+            padding-bottom: 30px;
+        }
+
+        .owl-dots{
+            margin-bottom: 30px;
+            position: relative;
+            top: -20px;
+            line-height: 10px;
+            button.owl-dot.active{
+                position: relative;
+                top: 2px;
+                span{
+                    width: 7px;
+                    height: 7px;
+                    background-color: #F063B8;
+                }
+            }
+
+            button.owl-dot{
+                span{
+                    width: 5px;
+                    height: 5px;
+                }
+            }
+
+        }
+    }
+}
+
+.divider{
+    padding-top: 100px;
+    border-bottom: 0.5px solid #b7aac9;
+}
+
+footer{
+
+    .try-for-free{
+        h1{
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        p{
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        .btn-demo{
+            background-color: #ffff;
+            border-radius: 25px;
+            box-shadow: 0px 3px 4px rgba(160, 160, 160, 0.2);
+    
+        }
+    
+        .btn-learn-more{
+            border-radius: 30px;
+            color: white;
+            background-color: #F603B8;
+            &:hover{
+            color: white;
+            background-color: #f783da;
+            }
+        }
+    }
+
+    .title-footer{
+        margin-top: 50px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .menu-footer{
+        p{
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+
+        li{
+            font-size: 16px;
+            font-weight: 500;
+            margin-top: 15px;
+            a{
+                color: #212353;
+            }
+        }
+    }
+
+    .social-media{
+        .facebook{
+            @include sosial-media();
+        }
+        .twitter{
+            @include sosial-media();
+        }
+        .instagram{
+            @include sosial-media();
+        }
+    }
+
+    .icon-message{
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        background-color: #EBE1F9;
+        text-align: center;
     }
 }

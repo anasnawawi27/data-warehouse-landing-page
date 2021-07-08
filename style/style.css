@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 body {
-  font-family: "Poppins";
+  font-family: "Inter";
 }
 
 .navbar .active {
@@ -62,5 +63,206 @@ header .btn-learn-more:hover {
 .about .about-desc p {
   font-weight: 400;
   color: #4B5D68;
+}
+
+.features {
+  margin-top: 120px;
+}
+
+.features h1 {
+  font-weight: bold;
+}
+
+.features p {
+  margin-top: 30px;
+  font-weight: 400;
+  color: #4B5D68;
+}
+
+.testimonial .testi-background {
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 40px;
+  background-color: #9C69E2;
+  border-radius: 45px;
+  position: relative;
+}
+
+.testimonial .testi-background h1 {
+  font-weight: bold;
+  color: #ffff;
+}
+
+.testimonial .testi-background .card {
+  border: 1px solid #9C69E2;
+  padding: 25px;
+  margin-right: 10px;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 15px 0px rgba(246, 240, 253, 0.2);
+          box-shadow: 0px 15px 0px rgba(246, 240, 253, 0.2);
+}
+
+.testimonial .testi-background .card .name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.testimonial .testi-background .card .work {
+  margin-top: -10px;
+  color: #9C69E2;
+  font-size: 14px;
+}
+
+.testimonial .testi-background .card p {
+  color: #4b5D68;
+  font-size: 18px;
+}
+
+.testimonial .owl-carousel {
+  margin-top: 50px;
+}
+
+.testimonial .owl-carousel .owl-stage-outer {
+  padding-bottom: 30px;
+}
+
+.testimonial .owl-carousel .owl-dots {
+  margin-bottom: 30px;
+  position: relative;
+  top: -20px;
+  line-height: 10px;
+}
+
+.testimonial .owl-carousel .owl-dots button.owl-dot.active {
+  position: relative;
+  top: 2px;
+}
+
+.testimonial .owl-carousel .owl-dots button.owl-dot.active span {
+  width: 7px;
+  height: 7px;
+  background-color: #F063B8;
+}
+
+.testimonial .owl-carousel .owl-dots button.owl-dot span {
+  width: 5px;
+  height: 5px;
+}
+
+.divider {
+  padding-top: 100px;
+  border-bottom: 0.5px solid #b7aac9;
+}
+
+footer .try-for-free h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+footer .try-for-free p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+footer .try-for-free .btn-demo {
+  background-color: #ffff;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 3px 4px rgba(160, 160, 160, 0.2);
+          box-shadow: 0px 3px 4px rgba(160, 160, 160, 0.2);
+}
+
+footer .try-for-free .btn-learn-more {
+  border-radius: 30px;
+  color: white;
+  background-color: #F603B8;
+}
+
+footer .try-for-free .btn-learn-more:hover {
+  color: white;
+  background-color: #f783da;
+}
+
+footer .title-footer {
+  margin-top: 50px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+footer .menu-footer p {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+footer .menu-footer li {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+footer .menu-footer li a {
+  color: #212353;
+}
+
+footer .social-media .facebook {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #E9E9EE;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+footer .social-media .facebook a {
+  color: #ffff;
+}
+
+footer .social-media .facebook:hover {
+  background-color: #9b9b9b;
+}
+
+footer .social-media .twitter {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #E9E9EE;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+footer .social-media .twitter a {
+  color: #ffff;
+}
+
+footer .social-media .twitter:hover {
+  background-color: #9b9b9b;
+}
+
+footer .social-media .instagram {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #E9E9EE;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+footer .social-media .instagram a {
+  color: #ffff;
+}
+
+footer .social-media .instagram:hover {
+  background-color: #9b9b9b;
+}
+
+footer .icon-message {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  background-color: #EBE1F9;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
